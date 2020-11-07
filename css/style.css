@@ -355,6 +355,10 @@
     box-shadow: 0 0 10px 2px #8888883f;
 }
 
+.pricing-table .card {
+    margin-bottom: 100px;
+}
+
 .pricing-table .card h5 {
     font-weight: bold;
     color: #28526d;
@@ -397,4 +401,166 @@
 
 /* start choose us */
 
+.contact-us .backgound-container {
+    padding: 0;
+}
+
+.contact-us .backgound {
+    height: 500px;
+    width: 100%;
+    background-image: url("../img/wal_3.jpg");
+    background-size: cover;
+}
+
+.contact-us .text-container {
+    padding: 100px 50px 50px 50px;
+    background-color: #28526d;
+    color: white;
+}
+
+.contact-us .text-container a {
+    text-decoration: none;
+    color: white;
+    background-color: #ec1c23;
+    padding: 10px 25px;
+    width: max-content;
+    border: 1px solid #ec1c23;
+    transition: all 0.5s ease-in-out;
+}
+
+.contact-us .text-container a:hover {
+    background-color: #28526d;
+    color: white;
+    border-color: white;
+    transition: all 0.5s ease-in-out;
+}
 /* end choose us */
+
+/* start statistic */
+.statistic  {
+    margin: 100px 0;
+    text-decoration: none;
+}
+
+.statistic svg {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #28526d;
+    text-decoration: none;
+}
+
+.statistic h3 {
+    color: #28526d;
+    text-decoration: none;
+}
+
+.statistic p {
+    color: #ec1c23;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+/* end statistic */
+
+/* start contact-us-section */
+.contact-us-section {
+    padding: 100px 0;
+    background-color: #ec1c23;
+}
+
+.contact-us-section .container h3 {
+    color: white;
+    margin: 0;
+    height: 100%;
+    line-height: 100%;
+}
+
+.contact-us-section #contact-us-link {
+    color: white;
+    padding: 15px 35px;
+    border: 1px solid white;
+    text-align: center;
+    right: 0ch;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all .5s ease-in-out;
+    height: 100%;
+    line-height: 100%;
+}
+
+.contact-us-section #contact-us-link:hover {
+    color: #ec1c23;
+    background-color: white;
+    transition: all .5s ease-in-out;
+}
+/* end contact-us-section */
+
+/* start footer */
+.footer{
+    color: #28526d;
+    margin: 100px 0;
+}
+
+.footer .col-6 span {
+    font-size: 35px;
+}
+
+.footer .col-6 span:first-child {
+    font-weight: bolder;
+    color: #28526d;
+}
+
+.footer .col-6 span:nth-child(2) {
+    color: #ec1c23;
+}
+
+.footer .col-6 a {
+    color: #28526d;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.footer .col-3 .col-6 {
+    font-size: 12px;
+}
+
+.footer .col-3 h5 {
+    margin-bottom: 15px;
+}
+
+.footer .row .contact-us-sections h5 {
+    margin-bottom: 15px;
+}
+.footer .row .contact-us-sections p {
+    line-height: 2;
+}
+
+.footer .contact-us-sections p {
+    color: #AAA;
+}
+
+.footer .contact-us-sections span {
+    color: #28526d;
+}
+/* end footer */
+
+/* start last footer */
+.last-footer {
+    padding: 25px 0;
+    border-top: 2px solid #DDD;
+    line-height: 100%;
+}
+.last-footer a {
+    font-size: 20px;
+    margin: 0 0 0 15px;
+    text-decoration: none;
+    color: #28526d;
+    transition: all 0.5s ease-in-out;
+}
+
+.last-footer a:hover {
+    color: #ec1c23;
+    transition: all 0.5s ease-in-out;
+}
+/* end last footer */
