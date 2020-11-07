@@ -1,0 +1,400 @@
+/* 
+    Theme name : Elite Core
+    Theme Coder : George Nady
+    PSD Designer : 
+    first color : #28526d
+    second color : #ec1c23
+*/
+
+/* start upper bar */ 
+.upper-bar {
+    background-color: #28526d;
+    color: #EEE;
+    padding: 10px;
+}
+
+.upper-bar span {
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #ec1c23;
+}
+/* end upper bar */
+
+/* start navbar */
+
+.navbar-brand > span {
+    font-size: 35px;
+}
+
+.navbar-brand span:first-child {
+    font-weight: bolder;
+    color: #28526d;
+}
+
+.navbar-brand span:last-child {
+    color: #ec1c23;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color: #ec1c23;
+ }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    margin-left: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* end navbar */
+
+/* start slider */
+.slider {
+    background-color: #28526d;
+}
+
+.slider .carousel-inner .overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    z-index: 2
+}
+
+.slider .carousel-inner h1 {
+    position: absolute;
+    z-index: 3;
+    color: #fff;
+    font-size: 65px;
+    left: 100px;
+}
+
+.slider .carousel-inner h1 span {
+    background-color: #ec1c23;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.slider .carousel-inner {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.slider .carousel-indicators .active {
+    opacity: 1;
+    height: 8px;
+    border-radius: 5px;
+}
+
+.slider .carousel-indicators li {
+    opacity: 0.5;
+    height: 8px;
+    border-radius: 5px;
+}
+
+.slider .carousel-item {
+    background-size: cover;
+}
+
+.slider .carousel-one {
+    background-image: url('../img/wal_1.jpg');
+}
+
+.slider .carousel-two {
+    background-image: url('../img/wal_2.jpg');
+}
+
+.slider .carousel-three {
+    background-image: url('../img/wal_3.jpg');
+}
+/* end slider */
+
+/* start features */
+.features {
+    padding: 50px 0;
+}
+
+.features svg {
+    padding: 25px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100px;
+    min-width: 100px;
+    min-height: 100px;
+    line-height: 100px;
+    background: red;
+    color: white;
+}
+
+.features h3 {
+    color: #28526d;
+    margin-bottom: 15px;
+}
+
+.features p {
+    color: #28526dcb;
+}
+/* end features */
+
+/* start overview */
+.overview {
+    padding: 100px 0;
+    background-color: #EEE;
+}
+
+.overview h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.overview p , h4{
+    color: #535353;
+}
+
+.overview button {
+    margin-top: 50px;
+    background-color: #ec1c23;
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid #ec1c23;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.overview button:hover {
+    color: #ec1c23;
+    background-color: white;
+    transition-duration: 500ms;
+}
+/* end overview */
+
+/* start work */
+.work {
+    padding-top: 100px;
+}
+
+.work h1 {
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.work p {
+    margin-bottom: 35px;
+    line-height: 1.6;
+}
+
+.work ul {
+    margin-bottom: 35px;
+}
+
+.work ul li.active {
+    text-align: center;
+    border: 1px solid #ec1c23;
+    padding: 8px 12px;
+    margin: 5px;
+    color: white;
+    background-color: #ec1c23;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.work ul li {
+    text-align: center;
+    border: 1px solid #28526d;
+    padding: 8px 12px;
+    margin: 5px;
+    color: #28526d;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all .5s ease-in-out;
+}
+
+.work ul li:hover {
+    color: white;
+    background-color: #ec1c23;
+    border-color: #ec1c23;
+    transition: all .5s ease-in-out;
+}
+
+.work .shuffel-container {
+    margin-top: 50px;
+}
+
+.work .row  {
+    padding: 0;
+    margin: 0;
+}
+
+.work .shuffel-images .col-md {
+    padding: 0;
+}
+
+.work .shuffel-images .col-md img{
+    width: 100%;
+}
+
+/* end work */
+
+/* start latest post */
+.latest-post {
+    padding-top: 100px;
+}
+
+.latest-post h1 {
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.latest-post p {
+    margin-bottom: 50px;
+}
+
+.latest-post .card {
+    border: 0;
+    margin: 0 15px 0 15px;
+}
+
+.latest-post .card img {
+    margin-bottom: 15px;
+}
+
+.latest-post .card h5 {
+    font-weight: bold;
+    color: #28526d;
+}
+
+.latest-post .card p {
+    margin-bottom: 10px;
+}
+
+.latest-post .card a {
+    color: #ec1c23;
+
+}
+/* end latest post */
+
+/* start testimonials */
+.testimonials {
+    padding-top: 100px;
+}
+
+.testimonials ol li {
+    height: 8px;
+}
+
+.testimonials a {
+    z-index: 4;
+}
+
+.testimonials .carousel-inner .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.testimonials .carousel-inner .profile-pic{
+    background-image: url('../img/pic1.jpg');
+    background-size: cover;   
+    height: 100px;
+    width: 100px;
+    margin-bottom: 25px;
+    border: 1px solid #28526d;
+    border-radius: 50%;
+}
+
+.testimonials h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.testimonials h6 {
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+
+/* end testimonials */
+
+/* start pricing table */
+.pricing-table {
+    padding-top: 100px;
+    background-color: #EEE;
+}
+
+.pricing-table #h1 {
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.pricing-table #p {
+    margin-bottom: 50px;
+}
+
+.pricing-table .card h1 {
+    padding: 10px 0;
+    background-color: #f9f9f9;
+    color: #28526d;
+}
+
+.pricing-table .card #middel-card {
+    padding: 10px 0;
+    background-color: #ec1c23;
+    color: #f9f9f9;
+}
+
+.pricing-table h1 small {
+    font-size: 15px;
+}
+
+.pricing-table .card {
+    margin: 0 30px;
+    padding: 30px 0 30px 0;
+    box-shadow: 0 0 10px 2px #8888883f;
+}
+
+.pricing-table .card h5 {
+    font-weight: bold;
+    color: #28526d;
+}
+
+.pricing-table .card .card-link {
+    color: white;
+    background-color: #ec1c23;
+    border: 1px solid #ec1c23;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 25px;
+    margin: 25px;
+    transition: all .5s ease-in-out ;
+}
+
+.pricing-table .card .card-link:hover{
+    color: #ec1c23;
+    background-color: white;
+    transition:all .5s ease-in-out ;
+}
+
+.pricing-table .card #middel-link {
+    background-color: #28526d;
+    border: 1px solid #28526d;
+}
+
+.pricing-table .card #middel-link:hover {
+    background-color: white;
+    color: #28526d;
+    border: 1px solid #28526d;
+}
+
+.pricing-table .middel-card-container {
+    position: relative;
+    top: -10px;
+}
+/* end latest post */
+
+/* start choose us */
+
+/* end choose us */
